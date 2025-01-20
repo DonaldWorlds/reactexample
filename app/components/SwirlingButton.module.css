@@ -1,0 +1,50 @@
+/* SwirlingButton.css */
+
+/* Basic styling for the button */
+.swirling-button {
+    background-color: #000;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  /* The RGB swirl effect using keyframes */
+  @keyframes rgbSwirl {
+    0% {
+      background-color: rgb(255, 0, 0); /* Red */
+    }
+    25% {
+      background-color: rgb(0, 255, 0); /* Green */
+    }
+    50% {
+      background-color: rgb(0, 0, 255); /* Blue */
+    }
+    75% {
+      background-color: rgb(255, 255, 0); /* Yellow */
+    }
+    100% {
+      background-color: rgb(255, 0, 255); /* Magenta */
+    }
+  }
+  
+  /* Apply the animation to the button when it's not hovered */
+  .swirling-button {
+    animation: rgbSwirl 3s infinite; /* Swirl through RGB colors indefinitely */
+  }
+  
+  /* Add an enhanced effect on hover */
+  .swirling-button.hover {
+    animation: rgbSwirl 1.5s infinite; /* Faster transition on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+  }
+  
+  /* Add a transition effect when the user hovers over the button */
+  .swirling-button:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5); /* Light glow on hover */
+  }
+  

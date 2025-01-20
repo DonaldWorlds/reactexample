@@ -1,0 +1,64 @@
+/* DynamicCard.module.css */
+
+/* Container to style the layout of the card editing area and the card preview */
+.dynamicCardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the form section where the user can adjust the card properties */
+  .formSection {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Style the card preview section */
+  .cardPreview {
+    width: 45%;
+  }
+  
+  /* Style for the form labels */
+  .formLabel {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the card title */
+  .cardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Style for the card subtitle */
+  .cardSubtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  /* Style for the card body text */
+  .cardText {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  /* Card Links styling */
+  .cardLink {
+    display: block;
+    margin: 5px 0;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .cardLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styling */
+  .cardButton {
+    margin-top: 10px;
+  }
+  

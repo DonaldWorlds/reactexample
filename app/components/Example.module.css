@@ -1,0 +1,72 @@
+/* Example.module.css */
+
+/* Style for the Navbar */
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbarBrand {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Navbar background color when scrolled */
+.navbarScrolled {
+    background-color: #333; /* Darker background after scroll */
+}
+
+.navbarTransparent {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for nav items */
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Space items evenly */
+}
+
+.navLink {
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navLink:hover {
+    color: #f0a500; /* Gold hover effect */
+    background-color: #444; /* Slight background change on hover */
+    border-radius: 5px;
+}
+
+/* Dropdown menu style */
+.dropdownItem {
+    color: #333;
+    font-weight: normal;
+}
+
+.dropdownItem:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+/* Adjust for mobile and small screens */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .navLink {
+        padding: 10px 20px;
+    }
+}

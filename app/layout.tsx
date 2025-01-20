@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Home from "./components/Hello";
+import BasicExample from "./components/Example"
+import { Button } from "react-bootstrap";
+import DynamicCard from "./components/DynamicCard";
 import "./globals.css";
 
 const geistSans = Geist({

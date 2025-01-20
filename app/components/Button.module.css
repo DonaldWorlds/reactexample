@@ -1,0 +1,36 @@
+/* ButtonComponent.module.css */
+
+/* Style for the primary button */
+.primaryButton {
+    background-color: #007bff;  /* Custom primary color */
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for primary button */
+  .primaryButton:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  /* Style for the success button */
+  .successButton {
+    background-color: #28a745; /* Custom success color */
+    border: 1px solid #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for success button */
+  .successButton:hover {
+    background-color: #218838;  /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
